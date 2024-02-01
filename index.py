@@ -1,7 +1,6 @@
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import numpy as np # linear algebra
 
-
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
@@ -15,6 +14,7 @@ data_set = pd.read_csv('data/healthcare-dataset-stroke-data.csv')
 
 # Now 'data_set' contains the dataset
 data_set.head()
+
 
 # Data Cleaning
 
