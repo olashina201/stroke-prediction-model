@@ -1,13 +1,13 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-import time
+# from selenium import webdriver
+# from selenium.webdriver.common.keys import Keys
+# from selenium.webdriver.common.by import By
+# import time
 
-driver = webdriver.Chrome()
-driver.get("https://twitter.com/login")
+# driver = webdriver.Chrome()
+# driver.get("https://twitter.com/login")
 
-username = "code_advocate"
-password = "Jiggy201&"
+# username = "code_advocate"
+# password = "Jiggy201&"
 
 # driver.find_element(By.CSS_SELECTOR, 'input[name="session[username]"]').send_keys(username)
 # driver.find_element(By.CSS_SELECTOR, 'input[name="session[password]"]').send_keys(password)
@@ -33,8 +33,8 @@ password = "Jiggy201&"
 
 # time.sleep(15)
 
-user_profile = "https://twitter.com/code_advocate"
-driver.get(user_profile)
+# user_profile = "https://twitter.com/code_advocate"
+# driver.get(user_profile)
 
 # Scroll down to load more tweets (you might need to adjust the loop and sleep duration)
 # for _ in range(3):
@@ -43,10 +43,12 @@ driver.get(user_profile)
 
 # Extract tweets
 # tweets = driver.find_elements(By.CSS_SELECTOR, 'div[data-testid="tweet"]')
-tweets = driver.find_elements(By.XPATH, "//article[@data-testid='tweet']")
-print('TWEETS', tweets);
-for tweet in tweets:
-    print(tweet)
+# tweets = driver.find_elements(By.XPATH, "//article[@data-testid='tweet']")
+# print('TWEETS', tweets);
+# for tweet in tweets:
+#     print(tweet)
 
 # Close the webdriver
-driver.quit()
+# driver.quit()
+
+
